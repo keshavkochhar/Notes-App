@@ -1,0 +1,73 @@
+/* AddNote.css */
+.add-note-container {
+    background-color: #faf8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-note-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.add-note-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-note-btn:hover {
+    background-color: #0056b3;
+}
+
+.add-note-btn:disabled {
+    background-color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .add-note-container {
+        padding: 20px;
+    }
+
+    .add-note-heading {
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        font-size: 0.95rem;
+    }
+
+    .add-note-btn {
+        font-size: 1rem;
+    }
+}

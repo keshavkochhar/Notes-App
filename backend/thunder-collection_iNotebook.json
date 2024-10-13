@@ -1,0 +1,41 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "iNotebook",
+    "collectionId": "1ae6ea9b-245e-4f48-bf57-10b86d1a7b46",
+    "dateExported": "2024-08-01T13:50:37.790Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "4a1572d7-b8b2-4816-bede-04eb430f9f7d",
+            "name": "Authentication",
+            "containerId": "",
+            "created": "2024-08-01T13:34:38.662Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a6b86e13-2bef-492e-a2a1-3eb475123d57",
+            "colId": "1ae6ea9b-245e-4f48-bf57-10b86d1a7b46",
+            "containerId": "4a1572d7-b8b2-4816-bede-04eb430f9f7d",
+            "name": "create a new user",
+            "url": "localhost:5000/api/auth/createuser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-01T13:35:02.819Z",
+            "modified": "2024-08-01T13:37:16.025Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"iron man\",\n  \"email\":\"ironfirst@gmail.com\",\n  \"password\":\"mark23\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "6GDbTYcEjEVYa1qunvQQQ9F6ZQAkx3LGu54yP8XKGGSTVgsbnjUDbmd5pqbrSJi1pTUg6zW_eF3kEE5TFX7aTw"
+}
